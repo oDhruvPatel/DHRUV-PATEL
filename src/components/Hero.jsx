@@ -164,7 +164,7 @@ const Hero = () => {
               id="watch-trailer"
               title="Let's talk"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1 h-10"
+              containerClass="bg-[#f1ff7e] flex-center gap-1 h-10"
             />
             </div>
 
@@ -187,18 +187,20 @@ const Hero = () => {
               id="watch-trailer"
               title="Let's talk"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1 "
+              containerClass="bg-[#f1ff7e] flex-center gap-1 "
             />
             </div>
           </div>
         </div>
       </div>
 
-      <h1 className="special-font hero-heading absolute bottom-5 right-5 text-[#0e0e0e] md:block hidden">
-        developer
-      </h1>
+      <h1 className="special-font hero-heading absolute bottom-5 right-5 text-[#2b2b2b] md:block hidden">
+  developer
+</h1>
 
-      <div class="absolute z-40 translate-x-[-50%] translate-y-[-50%] top-[50%] left-[50%] bg-red-600 size-56 object-cover overflow-hidden clip-animate">
+
+
+      <div class="md:mt-0 mt-16 absolute z-40 translate-x-[-50%] translate-y-[-50%] top-[50%] left-[50%] bg-red-600 size-56 object-cover overflow-hidden clip-animate">
   <img src="https://www.perkosis.com/uploads/staffs/big/9.jpg" alt="profile" />
 </div>
 
