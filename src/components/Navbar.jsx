@@ -63,7 +63,7 @@ const NavBar = () => {
              
            </div>
 
-            <h1 className="font-general text-blue-50 uppercase md:text-sm text-xs"> Open to tech roles across Canada. </h1>
+            <h1 className="font-general text-blue-50 uppercase md:text-sm text-[9px]"> Open to tech roles across Canada. </h1>
           </div>
 
           {/* Navigation Links and Audio Button */}
@@ -81,10 +81,10 @@ const NavBar = () => {
             </div>
 
             <div className="md:hidden flex">
-                <div className="lines flex flex-col gap-1 w-12 h-full">
+                <div className="lines flex flex-col gap-1 w-12 h-2">
                     <div className="line"></div>
                     <div className="line"></div>
-                    <div className="line"></div>
+                    
                 </div>
             </div>
 

@@ -66,7 +66,7 @@ const Hero = () => {
 
   useEffect(() => {
     gsap.set("#video-frame", {
-      clipPath: "polygon(14% 0, 72% 0, 88% 90%, 0 95%)",
+      clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
       borderRadius: "0% 0% 40% 10%",
     });
     gsap.from("#video-frame", {
@@ -90,7 +90,7 @@ const Hero = () => {
     <div className="relative h-dvh w-screen overflow-x-hidden" id="home">
       <div
         id="video-frame"
-        className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-black"
+        className="relative z-10 h-dvh w-screen overflow-hidden  bg-black"
       >
       
           <video
