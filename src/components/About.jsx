@@ -20,9 +20,9 @@ const About = () => {
         })
 
         clipAnimation.to('.mask-clip-path', {
-            width: '100vw',
-            height: '100vh',
-            borderRadius: 0
+            clipPath: "polygon(-2% -2%, 100% 0%, 100% 100%, 0% 100%)",
+            width: '100%',
+            height: '100%',
         })
     })
   return (
