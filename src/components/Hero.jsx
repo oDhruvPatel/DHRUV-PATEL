@@ -74,7 +74,7 @@ const Hero = () => {
       scrollTrigger: {
         trigger: "#video-frame",
         start: "center center",
-        end: "bottom center",
+        end: "bottom top",
         scrub: true,
       },
     });
