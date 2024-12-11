@@ -64,14 +64,28 @@ const Hero = () => {
     }
   }, [currentIndex]);
 
-  
+  useEffect(() => {
+    gsap.set("#video-frame", {
+      clipPath: "polygon(11% 0, 94% 0, 89% 100%, 6% 100%)",
+    });
+    gsap.from("#video-frame", {
+      clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+      ease: "power1.inOut",
+      scrollTrigger: {
+        trigger: "#video-frame",
+        start: "center center",
+        end: "bottom center",
+        scrub: true,
+      },
+    });
+  }, []);
 
   
 
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
 
   return (
-    <div className="relative h-dvh w-screen overflow-hidden" id="home">
+    <div className="relative h-dvh w-screen overflow-hidden " id="home">
       <div
         id="video-frame"
         className="relative z-10 h-dvh w-screen overflow-hidden  bg-black"

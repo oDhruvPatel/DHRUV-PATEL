@@ -28,8 +28,8 @@ const About = () => {
   return (
     <div id='about' className='min-h-screen min-w-screen'> 
      <div className='relative mb-8 mt-36 flex flex-col gap-5 items-center'>
-         <h2 className='font-general text-sm uppercase md:text-[10px] '>Turning Concepts into Code</h2>
-         <AnimatedTitle title="Learn More <b>A</b>bout My Journey as  a Developer" containerClass='mt-5 !text-[#0e0e0e] text-center'/>
+         <h2 className='font-general text-xs uppercase md:text-[10px] '>Turning Concepts into Code</h2>
+         <AnimatedTitle title="Learn More about My Journey as  a Developer" containerClass='mt-5 !text-[#2b2b2b] text-center'/>
         
          <div className='about-subtext'>
             <p className=''>Software Developer with 4+ months of hands-on experience, </p>
